@@ -1,14 +1,3 @@
----
-title: 编程
-introduction: 指引手册
-icon:
-background:
-tags:
-  - js
-  - frontend
-  - backend
----
-
 # 开发速查手册
 
 - [QuickRef.me](https://quickref.me/javascript)
