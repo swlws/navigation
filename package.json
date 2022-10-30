@@ -1,0 +1,16 @@
+{
+  "name": "navigation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node script/build.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "marked": "^4.1.1"
+  }
+}

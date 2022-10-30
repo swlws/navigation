@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>站点导航</title>
+
+    <style>
+      html,
+      body {
+        height: 100%;
+        background-color: #f5f6f7;
+      }
+
+      #title {
+        padding: 100px 0;
+        text-align: center;
+      }
+
+      #list {
+        display: flex;
+
+        justify-content: center;
+      }
+
+      #list a {
+        width: 200px;
+
+        margin: 10px;
+        padding: 80px 10px;
+        border: 1px solid #009afe;
+        border-radius: 5px;
+        text-decoration: none;
+
+        display: inline-block;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        transition: all 0.3s;
+      }
+
+      #list a:hover {
+        color: #fff;
+        background-color: maroon;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">便捷入口</h1>
+    <div id="list">
+      <a href="./pages/code.html">
+        <h1>编程</h1>
+        <p>编程相关的文档的快捷入口</p>
+      </a>
+      <a href="./pages/news.html">
+        <h1>新闻</h1>
+        <p>新闻站点的快速入口</p>
+      </a>
+      <a href="./pages/video.html">
+        <h1>视频</h1>
+        <p>视频站点的快速入口</p>
+      </a>
+    </div>
+  </body>
+</html>

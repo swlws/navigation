@@ -1,0 +1,38 @@
+html,
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  border-bottom: 1px solid maroon;
+}
+
+ul {
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul > li > a {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  text-decoration: none;
+
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  transition: all 0.3s;
+}
+
+ul > li > a:hover {
+  color: #fff;
+  background-color: maroon;
+}
