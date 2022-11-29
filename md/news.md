@@ -1,7 +1,3 @@
-# 编程
-
-- [开源中国](https://www.oschina.net/)
-
 # 时事
 
 - [极客公园](https://www.geekpark.net/)
